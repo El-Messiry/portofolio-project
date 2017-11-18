@@ -1,0 +1,253 @@
+/*
+    CSS styles
+
+    BY: Ahmed Elmessiry */
+
+
+
+/* -------------------- main styles --------------------------- */
+
+body{
+    background-color: #ffffff;
+    font-family: Helvetica , arial , sans-serif ;
+    font-weight: normal;
+    width: 100% ;
+    font-size:20px;
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+
+/* Responsive basic styles */
+
+img,embed,object,video{
+    max-width: 100%
+}
+
+nav a,button {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+pre{
+    min-width: 0;
+}
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+/*------------------ custom styles -------------------------------*/
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 56px;
+  transition: min-height 0.3s;
+}
+
+.header__inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__logo {
+  height: 72px;
+  margin-right: 1em;
+  vertical-align: top;
+margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.header__title {
+    float: right;
+  font-weight: 800;
+  font-size: 1em;
+
+  margin: 0.5em 0.25em;
+  display: inline-block;
+    color: #171717;
+    text-shadow: 0px 0px 6px rgb(134, 134, 134);
+
+}
+
+
+.nav {
+    font-size: 15px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  min-width: 48px;
+  min-height: 48px;
+  text-decoration: none;
+  color: #616161;
+}
+
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #212121;
+}
+
+
+
+
+
+.page-main{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+.content{
+
+}
+
+.header-logo{
+    display: inline-block;
+    height: 100%;
+    max-height: 100px;
+    max-width: 100px;
+    padding: auto;
+    width: 30%;
+    float: left;
+
+}
+
+#logo-img{
+    display:block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 100px
+
+}
+
+
+#intro-img{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.intro-article{
+    width: 94%;
+    margin: auto;
+    text-align: justify;
+    font-weight: 100;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+}
+
+
+.intro-article h2{
+    text-shadow: 0px 0px 6px rgb(27, 27, 27);
+    color: #343434;
+    margin: 2%;
+}
+
+
+
+.car-container{
+    width: 94%;
+    margin: auto;
+    display: flex;
+}
+
+.car-box{
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 6px rgb(171, 169, 169);
+    background-color: #333;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 45%%;
+
+
+
+}
+
+.car-box-header{
+    padding: 4%;
+    margin: 2%;
+
+}
+
+.car-box img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 21px 5px rgb(27, 27, 27);
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.car-article{
+    color: #363636;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 19px 6px rgba(135,133,135,1);
+    background-color: #e7e7e7;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 20px;
+    overflow: auto;
+    width: 90%;
+    max-height: 250px;
+    margin-bottom: 10px;
+}
+
+.car-article p{
+    font-size: 17px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.car-box header{
+    text-shadow: 0px 0px 9px rgb(27, 27, 27);
+    color: #a3a3a3;
+}
+
+.car-box h4{
+    text-shadow: 0px 0px 6px rgb(27, 27, 27);
+    color: #a3a3a3;
+    margin: 2%;
+}
+
+
+
+hr{
+    margin: 3em;
+    border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
