@@ -7,4 +7,5 @@ This is Udacity Full Stack webdevelopment (#2) portofolio project using ***HTML/
 - Follow the Principles of using tag names that describes the content
 - Responsive Design
 - Styling
-###Snaps:
+### Snaps:
+![alt text](https://github.com/El-Messiry/portofolio-project/README_imgs/site(1).png)
